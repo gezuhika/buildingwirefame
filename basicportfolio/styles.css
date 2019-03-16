@@ -1,0 +1,93 @@
+.{
+    box-sizing: border-box;
+}
+body {
+background: url("../images/concrete_seamless.png");
+font-family: Arial, Helvetica, sans-serif;
+overflow: auto;
+color: #777777;
+}
+h1 h2 h2 h4 h5 h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+header{
+    background: white;
+    border-bottom: 3px solid #ccc;
+}
+h1{
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+
+}
+nav{
+    width: 300px;
+    float: right;
+    margin: 25px;
+    text-align:center;
+}
+nav ul li{
+    display: inline;
+
+}
+nav a{
+    color: #333333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+}
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.inline img{
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+.clearfix{
+    display: block;
+    clear: both;
+}
+#left-column #right-column{
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+
+}
+#left-column{
+    width: 650px;
+    float: left;
+}
+#left-column h2{
+    font-size: 24px;
+    padding: 15px;
+    margin:bottom;
+
+}
+#right-column{
+    width: 270px;
+    float: right;
+}
+
+footer{
+    background: #666666;
+    border-top: 3px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px
+}
+
+
+
